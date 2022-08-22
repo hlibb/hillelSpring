@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hlib's workspace</title>
+    <link rel="stylesheet" href="../static/myCSS.css">
+</head>
+<body>
+<main role="main" class="container">
+    <div class="starter-template">
+    <img src ="https://images.unsplash.com/photo-1529511582893-2d7e684dd128?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80"
+         alt ="Pray for Ukraine!" class="centerImg">
+    <h1 class="centerTxt">Welcome to Hlib's cloud</h1>
+    <h2 class="centerTxt">
+        <span th:text="'Hello, ' + ${message}"></span>
+    </h2>
+    </div>
+</main>
+</body>
+</html>
